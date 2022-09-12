@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "JinChuanQiXiang.TDT/1.0.0": {
+        "dependencies": {
+          "Zjgis.Catfood.Shapefile": "1.0.0"
+        },
+        "runtime": {
+          "JinChuanQiXiang.TDT.dll": {}
+        }
+      },
+      "Zjgis.Catfood.Shapefile/1.0.0": {
+        "runtime": {
+          "lib/Catfood.Shapefile.dll": {
+            "assemblyVersion": "1.51.0.0",
+            "fileVersion": "1.51.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JinChuanQiXiang.TDT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zjgis.Catfood.Shapefile/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uLXgaMWtAp9IgyK94LEj7qbA2FlT6GtqtP+pvtJ9bcWayc7eMcdK4tcn8jZxY+5qbbf+eASG+slimniy//pCgA==",
+      "path": "zjgis.catfood.shapefile/1.0.0",
+      "hashPath": "zjgis.catfood.shapefile.1.0.0.nupkg.sha512"
+    }
+  }
+}

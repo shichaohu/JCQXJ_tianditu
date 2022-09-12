@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Zjgis.Catfood.Shapefile/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Catfood.Shapefile.dll": {}
+        },
+        "runtime": {
+          "lib/Catfood.Shapefile.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zjgis.Catfood.Shapefile/1.0.0": {
+      "sha512": "uLXgaMWtAp9IgyK94LEj7qbA2FlT6GtqtP+pvtJ9bcWayc7eMcdK4tcn8jZxY+5qbbf+eASG+slimniy//pCgA==",
+      "type": "package",
+      "path": "zjgis.catfood.shapefile/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Catfood.Shapefile.dll",
+        "zjgis.catfood.shapefile.1.0.0.nupkg.sha512",
+        "zjgis.catfood.shapefile.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Zjgis.Catfood.Shapefile >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\shichaohu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\project\\personal\\JCQXJ_tianditu\\.net project\\JinChuanQiXiang.TDT_net6\\JinChuanQiXiang.TDT\\JinChuanQiXiang.TDT.csproj",
+      "projectName": "JinChuanQiXiang.TDT",
+      "projectPath": "D:\\project\\personal\\JCQXJ_tianditu\\.net project\\JinChuanQiXiang.TDT_net6\\JinChuanQiXiang.TDT\\JinChuanQiXiang.TDT.csproj",
+      "packagesPath": "C:\\Users\\shichaohu\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\personal\\JCQXJ_tianditu\\.net project\\JinChuanQiXiang.TDT_net6\\JinChuanQiXiang.TDT\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\shichaohu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Zjgis.Catfood.Shapefile": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0”还原包“Zjgis.Catfood.Shapefile 1.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "Zjgis.Catfood.Shapefile",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

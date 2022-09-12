@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\Map\DataInformation.csv" />
+    <None Include="wwwroot\Content\Map\jinchuan.dbf" />
+    <None Include="wwwroot\Content\Map\jinchuan.prj" />
+    <None Include="wwwroot\Content\Map\jinchuan.sbn" />
+    <None Include="wwwroot\Content\Map\jinchuan.sbx" />
+    <None Include="wwwroot\Content\Map\jinchuan.shp" />
+    <None Include="wwwroot\Content\Map\jinchuan.shx" />
+    <None Include="wwwroot\Content\Map\jinchuan.xml" />
+    <None Include="wwwroot\Content\Map\Map.wmp" />
+    <None Include="wwwroot\Content\Map\PlotData.CSV" />
+    <None Include="wwwroot\Content\Map\StationInformation.CSV" />
+    <None Include="wwwroot\Content\行政区划列表2020-03.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Zjgis.Catfood.Shapefile" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
